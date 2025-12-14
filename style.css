@@ -1,4 +1,4 @@
- {
+﻿{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,10 +15,12 @@ body {
     margin: 0 auto;
 }
 
+
 header {
     background: #333;
-    color: #fff;
+    color: darkred;
     padding: 20px 0;
+    background-image: url("images/popcorn.jpg");
 }
 
     header h1 {
@@ -32,27 +34,29 @@ nav ul {
 }
 
 nav a {
-    color: #fff;
     text-decoration: none;
 }
 
     nav a:hover {
         text-decoration: underline;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
     }
 
-
 .section {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
     .section:nth-child(even) {
         background: #f4f4f4;
+        background-color: darkblue;
     }
 
 
 footer {
     background: #333;
-    color: #fff;
+    color: white;
     text-align: center;
     padding: 20px 0;
 }
