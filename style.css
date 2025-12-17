@@ -1,25 +1,20 @@
-﻿/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* BODY */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: darkred;
 }
-
-/* CONTAINER */
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* HEADER */
 header {
     background-image: url("images/popcorn.jpg");
     background-size: cover;
@@ -28,7 +23,6 @@ header {
     color: white;
 }
 
-/* NAV */
 nav ul {
     list-style: none;
     display: flex;
@@ -43,19 +37,17 @@ nav a {
     max-width: 100%;
     height: 50px;
 }
-/* SECTION */
 .section {
     padding: 40px 0;
 }
 
-/* ===== CARDS LAYOUT ===== */
 .cards {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
-/* CARD */
+
 .card {
     background: white;
     border-radius: 12px;
@@ -67,27 +59,23 @@ nav a {
     flex-direction: column;
 }
 
-    /* IMAGE */
     .card img {
         width: 100%;
-        height: 520px; /* הגובה שהוגדר */
-        object-fit: cover; /* מילוי מלא בלי עיוות */
+        height: 520px;
+        object-fit: cover;
         border-radius: 10px;
     }
 
-    /* TITLE */
     .card h3 {
         margin: 12px 0;
         color: #333;
     }
 
-    /* TEXT */
     .card p {
         color: #555;
         font-size: 0.95em;
     }
 
-    /* LINK */
     .card a {
         display: inline-block;
         margin: 10px 0;
@@ -96,7 +84,6 @@ nav a {
         text-decoration: none;
     }
 
-    /* BUTTON */
     .card button {
         background: darkred;
         color: white;
@@ -111,28 +98,14 @@ nav a {
             background: #a00000;
         }
 
-    /* INFO */
     .card .info {
         font-size: 0.85em;
         color: #777;
     }
 
-/* FOOTER */
 footer {
     background: #333;
     color: white;
     text-align: center;
     padding: 20px 0;
-}
-
-/* RESPONSIVE */
-@media (max-width: 900px) {
-    .cards {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card {
-        width: 90%;
-    }
 }
